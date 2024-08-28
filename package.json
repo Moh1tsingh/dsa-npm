@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Moh1tsingh/dsa-npm.git"
+    "url": "git+https://github.com/Moh1tsingh/dsa-npm-lib.git"
   },
   "keywords": [
     "dsajs",
@@ -17,7 +17,7 @@
   "author": "moh1tsingh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Moh1tsingh/dsa-npm/issues"
+    "url": "https://github.com/Moh1tsingh/dsa-npm-lib/issues"
   },
-  "homepage": "https://github.com/Moh1tsingh/dsa-npm#readme"
+  "homepage": "https://github.com/Moh1tsingh/dsa-npm-lib#readme"
 }
