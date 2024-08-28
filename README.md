@@ -1,13 +1,13 @@
 # DSA-JS
 
-dsa-js is DSA library written in javascript and provides basic data structures like Stack,Queue and Linked List along with some sorting and searching algorithms
+dsa-with-javascript is DSA library written in javascript and provides basic data structures like Stack,Queue and Linked List along with some sorting and searching algorithms
 
 ## Installation
 
 Use the package manager npm to install dsa-js.
 
 ```bash
-npm install dsa-js
+npm install dsa-with-javascript
 ```
 
 ## Usage
