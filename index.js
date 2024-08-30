@@ -8,6 +8,8 @@ const MergeSort = require("./algorithms/MergeSort");
 const LinearSearch = require("./algorithms/LinearSearch");
 const BinarySearch = require("./algorithms/BinarySearch");
 const LinkedList = require("./data-structures/Linked-List/LinkedList");
+const BreadthFirstSearch = require("./algorithms/BreadthFirstSearch");
+const DepthFirstSearch = require("./algorithms/DepthFirstSearch");
 
 module.exports = {
   Stack,
@@ -20,4 +22,6 @@ module.exports = {
   MergeSort,
   LinearSearch,
   BinarySearch,
+  BreadthFirstSearch,
+  DepthFirstSearch
 };
