@@ -107,6 +107,33 @@ SelectionSort(arr) //Returns the sorted array in ascending order
 SelectionSort(arr,-1) //Returns the sorted array in descending order
 ```
 
+#### 8.BreadthFirstSearch
+```javascript
+const {BreadthFirstSearch} = require('dsa-with-javascript')
+graph = {
+  A: ["B", "C"],
+  B: ["A", "D", "E"],
+  C: ["A", "F"],
+  D: ["B"],
+  E: ["B", "F"],
+  F: ["C", "E"],
+};
+BreadthFirstSearch(graph, "A") //Takes two arguments - Graph and the starting node and returns an array of traversed nodes with bfs
+```
+
+#### 9.DepthFirstSearch
+```javascript
+const {DepthFirstSearch} = require('dsa-with-javascript')
+graph = {
+  A: ["B", "C"],
+  B: ["A", "D", "E"],
+  C: ["A", "F"],
+  D: ["B"],
+  E: ["B", "F"],
+  F: ["C", "E"],
+};
+DepthFirstSearch(graph, "A") //Takes two arguments - Graph and the starting node and returns an array of traversed nodes with dfs
+```
 ## Contributing
 
 Pull requests are always welcome. For major changes, please open an issue first
