@@ -14,6 +14,7 @@ npm install dsa-with-javascript
 ### Available data structures 
 #### 1.Stack
 ```javascript
+//Stack uses Linked-List inside
 const {Stack} = require('dsa-with-javascript')
 
 const stack = new Stack() // Create a new instance of class Stack
@@ -25,6 +26,7 @@ stack.show() // Returns the stack
 ```
 #### 2.Queue
 ```javascript
+//Queue uses Linked-List inside
 const {Queue} = require('dsa-with-javascript')
 
 const queue = new Queue() // Create a new instance of class Queue

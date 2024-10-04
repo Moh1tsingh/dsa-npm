@@ -1,6 +1,6 @@
 {
   "name": "dsa-with-javascript",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "dsa library in js",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "dsajs",
-    "dsa-js"
+    "dsa-js",
+    "dsa-with-javascript"
   ],
   "author": "moh1tsingh",
   "license": "ISC",

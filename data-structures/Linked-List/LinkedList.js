@@ -35,11 +35,32 @@ class LinkedList {
   }
   getLast() {
     let node = this.head;
-    if (!node) return node;
+    if (!node) return null;
     while (node.next) {
       node = node.next;
     }
     return node.data;
+  }
+  popLast() {
+    let node = this.head;
+    if (!node) return null;
+    if(!node.next){
+      let poppedNode = node.data
+      this.head = null
+      return poppedNode
+    }
+    let prev = null
+    while (node.next) {
+      prev = node
+      node = node.next;
+    }
+    prev.next = null
+    return node.data;
+  }
+  popFirst() {
+    let poppedNode = this.head.data;
+    this.head = this.head.next
+    return poppedNode;
   }
   clear() {
     this.head = null;
@@ -60,6 +81,8 @@ class LinkedList {
 // list.createNew(25)
 // list.createNew(27)
 // list.createNew(29)
-// console.log((list.getFirst()))
+// console.log(list.show())
+// console.log((list.popFirst()))
+// console.log(list.show())
 
 module.exports = LinkedList;

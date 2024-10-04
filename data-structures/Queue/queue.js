@@ -1,30 +1,38 @@
+const LinkedList = require("../Linked-List/LinkedList");
+
 class Queue {
   constructor() {
-    this.queue = [];
+    this.queue = new LinkedList();
   }
 
   push(value) {
-    this.queue.push(value);
+    this.queue.createNew(value);
   }
 
   pop() {
-    if (this.queue.length === 0) throw "Queue is empty";
-    return this.queue.shift();
+    if (this.queue.size() === 0) throw "Queue is empty";
+    return this.queue.popFirst();
   }
 
   top() {
-    if (this.queue.length === 0) throw "Queue is empty";
-    return this.queue[0];
+    if (this.queue.size() === 0) throw "Queue is empty";
+    return this.queue.getFirst();
   }
 
   isEmpty() {
-    return this.queue.length === 0;
+    return this.queue.size() === 0;
   }
 
   show() {
-    if (this.queue.length === 0) throw "Queue is empty";
-    return this.queue;
+    if (this.queue.size() === 0) throw "Queue is empty";
+    return this.queue.show();
   }
 }
 
-module.exports = Queue
+// const q = new Queue
+// q.push(34)
+// console.log(q.show())
+// console.log(q.pop())
+// console.log(q.show())
+
+module.exports = Queue;
